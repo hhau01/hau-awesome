@@ -1,2 +1,5 @@
+_site/*
 _site/index.html
 _site/news.html
+_site/planets.html
+_site/css/common.css
