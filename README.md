@@ -1,2 +1,2 @@
 # hau-awesome
-Personal website/blog using Jekyll!
+Personal website/blog using Jekyll.
