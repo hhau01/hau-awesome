@@ -1,4 +1,4 @@
-# hau-awesome
+# [hau-awesome](https://hhau01.github.io/hau-awesome/)
 Personal website/blog using Jekyll.
 - [ ] Learn basic Jekyll commands
 - [ ] Upload Jekyll theme
