@@ -1,5 +1,5 @@
 ---
-layout: news
+layout: news-article
 title: Fake Three
 meta: This is fake 3
 source: https://www.github.com
