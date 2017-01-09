@@ -1,0 +1,7 @@
+- title: Fake Type 1
+  folder: fake-type-1
+  content: The projects/foo_project.md would have the layout set to foobar instead of project and the author set to John Smith instead of Mr. Hyde when the site is built.
+
+- title: Fake Type 2
+  folder: fake-type-2
+  content: The projects/foo_project.md would have the layout set to foobar instead of project and the author set to John Smith instead of Mr. Hyde when the site is built.

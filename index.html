@@ -5,10 +5,19 @@ layout: default
 <h1>Hello</h1>
 <p>I see you</p>
 
-<h2>HELLO</h2>
+<h2>Fake Types of Fakestuff</h2>
+
+<ol>
+{% for fake in site.data.fake-types %}
+        <li>
+            <a href="#">{{fake.title}}</a>
+            {{fake.content | markdownify }}
+        </li>
+{% endfor %}
+</ol>
 
 <ul>
-    {% for post in site.categories.old limit: 1%}
+    {% for post in site.categories.old limit: 1 %}
         <li>
             <a href="">{{post.title}}</a>
             <p>{{post.meta}}</p>
