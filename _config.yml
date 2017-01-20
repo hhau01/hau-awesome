@@ -1,3 +1,3 @@
 markdown: redcarpet
-baseurl: /hau-awesome
+baseurl: /learn-jekyll
 exclude: ['README.md']
