@@ -10,7 +10,7 @@ layout: default
 <ol>
 {% for fake in site.data.fake-types %}
         <li>
-            <a href="#">{{fake.title}}</a>
+            <a href="{{site.baseurl}}/planets/{{planet.folder}}">{{fake.title}}</a>
             {{fake.content | markdownify }}
         </li>
 {% endfor %}

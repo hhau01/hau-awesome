@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<strong>Planets</strong>
+
+<nav>
+    <ul>
+    {% for planet in site.categories.planet-type %}
+            <li>
+                <a href="{{site.baseurl}}/planets/{{planet.fulder}}">{{planet.title}}</a>
+                {{planet.content | markdownify }}
+            </li>
+    {% endfor %}
+    </ul>
+</nav>
